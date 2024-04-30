@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background: url("https://media.istockphoto.com/id/1199517096/es/foto/polvo-blanco-sobre-fondo-negro-en-desenfoque-fondo-abstracto.jpg?s=1024x1024&w=is&k=20&c=d3KlYM4HYWedHw-qbPZrvb5zMdzff__y0TiHO62jJhE=");
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.caracteristica {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.caracteristica img {
+    width: 100%; 
+    max-width: 400px; 
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.caracteristica h3 {
+    font-size: 1.5em;
+}
+
+.testimonio {
+    background-color: #e0e0e0; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimonio-imagen {
+    width: 100%; 
+    max-width: 600px; 
+    display: block; 
+    margin: 0 auto 20px; 
+}
+
+.testimonio p {
+    font-style: normal; 
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background: url("https://cdn.pixabay.com/photo/2020/11/07/01/28/abstract-5719221_960_720.jpg");
+    background-size: cover; 
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.call-to-action {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.call-to-action p {
+    margin-bottom: 20px;
+}
+
+.separador {
+    height: 20px; 
+    background-color: #f2f2f2; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.centered-btn {
+    text-align: center; 
+}
